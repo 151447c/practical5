@@ -14,16 +14,16 @@ public class HiWorld {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getMessage() {
-        return "Hi world!";
+        return "Hi world1!";
     }
     @GET
     @Produces(MediaType.TEXT_XML)
     public String getXMLMessage(){
-        return "Hi world!";
+        return "Hi world2!";
     }
     @GET
     @Produces(MediaType.TEXT_HTML)
     public String getHTMLMessage(){
-        return "Hi world!";
+        return "Hi world3!";
     }
 }
